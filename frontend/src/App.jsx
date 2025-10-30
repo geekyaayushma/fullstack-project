@@ -2,22 +2,15 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from "./components/common/Navigation";
 import HomePage from "./HomePage";
-import Footer from "./components/common/Footer";
 import BlogList from "./components/blog/BlogList";
 import Blog from "./components/blog/Blog";
-import Team from "./Team";
-import { AuthProvider } from "./components/auth/AuthContext";
-import "./App.css";
+import Team from "./components/team/Team";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
-import PrivateRoute from "./components/auth/PrivateRoute";
-import Courses from "./components/courses/Courses";
-import CourseDetails from "./components/courses/CourseDetails";
-import MyCourses from "./components/courses/MyCourses";
-import CourseContent from "./components/courses/CourseContent";
-import CoursePlayer from "./components/courses/CoursePlayer";
-import Success from "./components/auth/Success";
-import Cancel from "./components/auth/Cancel";
+import Footer from "./components/common/Footer";
+
+import { AuthProvider } from "./components/auth/AuthContext";
+import "./App.css";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

@@ -1,39 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import backgroundImage from "./assets/homepage-background.jpg";
-import jane from "./assets/testimonials-images/jane.jpg";
-import chris from "./assets/testimonials-images/chris.png";
-import Lisa from "./assets/testimonials-images/Lisa.png";
-import mike from "./assets/testimonials-images/mike.jpg";
+import backgroundImage from "./assets/home-image.png";
+import Jane from "./assets/testimonials-images/jane.jpg";
+import Chris from "./assets/testimonials-images/chris.jpg";
+import Leslie from "./assets/testimonials-images/Leslie.jpg";
+import Mike from "./assets/testimonials-images/mike.jpg";
 
 const testimonials = [
   {
     id: 1,
-    text: "Fewlearns have been a great resource for me. I've learned so much through this",
-    author: "Jane Shah",
-    title: "VP of Marketing at TechCorp",
-    imageUrl: jane,
+    text: "FewLearns have been a great resource for me. I've learned so much from their courses. I would recommend them to anyone. 🥰",
+    author: "Jane Steiner",
+    title: "VP Sales at Google",
+    imageUrl: Jane,
   },
   {
     id: 2,
-    text: "This platform transformed my career. The courses are top-notch and the instructors are very knowledgeable.",
-    author: "Chris Lee",
-    title: "Software Engineer at ABC Inc.",
-    imageUrla: chris,
+    text: "The K8s course has been a game changer for me. This is how you explain complex topics in a simple way. Thanks for the great content, FewLearns!",
+    author: "Chris Ambrose",
+    title: "Lead marketer at Netflix",
+    imageUrl: Chris,
   },
   {
     id: 3,
-    text: "Fewlearns provided me with the skills I needed to advance in my career. The flexibility to learn at my own pace was invaluable.",
-    author: "Lisa Wong",
-    title: "Data Analyst at Solutions",
-    imageUrl: Lisa,
+    text: "This is an amazing course. Just finished the React course and I'm already seeing the benefits. Thanks for the great content.",
+    author: "Leslie Winn",
+    title: "Co-founder of Acme Inc",
+    imageUrl: Leslie,
   },
   {
     id: 4,
-    text: "I highly recommend Fewlearns to anyone looking to upskill. The course variety and quality are unmatched.",
-    author: "Mike Johnson",
-    title: "Freelance Developer",
-    imageUrl: mike,
+    text: "An useful resource for learning web development.",
+    author: "Mike Winn",
+    title: "Co-founder of Acme Inc",
+    imageUrl: Mike,
   },
 ];
 
